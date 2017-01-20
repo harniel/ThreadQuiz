@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         run.join();
                     } catch (InterruptedException e) {
-                        e.printStackTrace();
+                        return;
                     }
                 }else{
                     mBtnTrue.setEnabled(true);
